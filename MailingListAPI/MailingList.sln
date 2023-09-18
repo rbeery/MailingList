@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailingList", "MailingList\MailingList.csproj", "{C06F7A09-C1F3-49FD-870D-FAD694F3BA40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailingListTests", "MailingListTests\MailingListTests.csproj", "{DF8112EA-D2D4-45C0-BCDF-11E468152D74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{C06F7A09-C1F3-49FD-870D-FAD694F3BA40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C06F7A09-C1F3-49FD-870D-FAD694F3BA40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C06F7A09-C1F3-49FD-870D-FAD694F3BA40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF8112EA-D2D4-45C0-BCDF-11E468152D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF8112EA-D2D4-45C0-BCDF-11E468152D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF8112EA-D2D4-45C0-BCDF-11E468152D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF8112EA-D2D4-45C0-BCDF-11E468152D74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
