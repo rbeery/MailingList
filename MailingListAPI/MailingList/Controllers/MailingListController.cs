@@ -19,12 +19,8 @@ public class MailingListController : ControllerBase
         new MailListEntry("Amanda", "Acron", "AmandatheAcorn@gmail.com"),
     };
 
-    private readonly ILogger<MailingListController> _logger;
 
-    public MailingListController(ILogger<MailingListController> logger)
-    {
-        _logger = logger;
-    }
+    public MailingListController() {}
 
     [HttpGet(Name = "MailingList")]
     public IEnumerable<MailListEntry> Get(string lastName = "", bool ascending = true)
