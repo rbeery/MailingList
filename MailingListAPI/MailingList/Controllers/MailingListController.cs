@@ -22,6 +22,8 @@ public class MailingListController : ControllerBase
 
     public MailingListController() {}
 
+    // Get Mailing list function
+    // Currently just accesses a list of entries defined above, but in an actual application would reach out to a repository that would retrieve the data from a database
     [HttpGet(Name = "MailingList")]
     public IEnumerable<MailListEntry> Get(string lastName = "", bool ascending = true)
     {
