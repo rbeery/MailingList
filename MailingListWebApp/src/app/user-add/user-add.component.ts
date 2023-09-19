@@ -13,7 +13,8 @@ export class UserAddComponent {
     lastName: "",
     email: ""
   })
-
+  // flag to mark when a value has been submitted.  In an actual application would wait for a response from the api call
+  // once the response is received that information can be passed to the user
   submitted = false;
 
   //temporary array to store the submitted, not saved anywhere so will only persist within the current run, will be lost on reload
@@ -34,8 +35,11 @@ export class UserAddComponent {
     //will be replaced by call to service which would add the item to the database
     this.mailList.push(this.mailingListForm.value);
 
+    // console messages to ensure the data has been collected properly and added to the array
     console.warn('email address has been added: ', this.mailingListForm.value);
     console.warn('full mailing list: ', this.mailList);
+
+    //resetting the form for addition uses
     this.mailingListForm.reset();
   }
 }
