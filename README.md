@@ -9,15 +9,15 @@ The .Net portion of the app is located within the MailingListAPI folder while th
 
 ## Installation
 
-Installation and running instructions can be found within each sub folder
+Installation and running instructions can be found within each sub-folder
 
 ## Full Application Needs
 
-Database implementation and additional structure within the API portion for better seperation of concerns and testability.
+Database implementation and additional structure within the API portion for better separation of concerns and testability.
 
 Additional validation on user input to ensure entries are not blank or invalid.
 
-Security in the form of an API key or other form of access control to ensure the usage of the API is limted to those who should have access to it.
+Security in the form of an API key or other form of access control to ensure the usage of the API is limited to those who should have access to it.
 
 
 
